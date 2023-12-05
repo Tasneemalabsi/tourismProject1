@@ -1,0 +1,72 @@
+header {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Spread items to both ends */
+    padding: 10px 20px; /* Add some padding for spacing */
+    background-color: gainsboro;
+    position: sticky;
+    top:0;
+}
+
+h1 {
+    margin: 0; /* Remove default margin from h1 */
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 20px; /* Add spacing between links */
+    font-size: large;
+}
+nav a:hover{
+    font-size: 150%;
+    color:yellow
+}
+
+#container {
+    margin-top: 10px;
+}
+
+#showDetails {
+    padding: 10px 20px;
+    background-color: #6b9312;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#showDetails:hover{
+    background-color: greenyellow;
+}
+#card {
+    width: 200px; /* Set a fixed width for each card */
+    margin: 10px; /* Add spacing between cards */
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center; /* Center align the contents */
+}
+#search-bar {
+height: 46px;
+border-radius: 48px;
+border: 0.5px solid lightgrey;
+width: 60%;
+padding-right: 40px;
+padding-left: 10px;
+}
+
+#searchBTN1 {
+    /* height: 46px;
+    border-top-right-radius: 48px;
+    border-bottom-right-radius: 48px;
+    padding: 15px;
+    font-size: 1.1em;
+    /* position: absolute; */
+    border: 1px gray solid;
+    border-radius: 30px;
+    text-align: center;
+} 
+
+#searchBTN1:hover{
+    background-color: gainsboro;
+    color:darkgrey
+}
